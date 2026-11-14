@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extShortName__",
+  "version": "1.1.0",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["rotate.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "rotate-clockwise": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1",
+        "mac": "MacCtrl+Shift+1"
+      },
+      "description": "__MSG_cmdRotateClockwise__"
+    },
+    "rotate-counterclockwise": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2",
+        "mac": "MacCtrl+Shift+2"
+      },
+      "description": "__MSG_cmdRotateCounterclockwise__"
+    },
+    "rotate-reset": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3",
+        "mac": "MacCtrl+Shift+3"
+      },
+      "description": "__MSG_cmdRotateReset__"
+    },
+    "toggle-pip": {
+      "suggested_key": {
+        "default": "Alt+P",
+        "mac": "Alt+P"
+      },
+      "description": "__MSG_cmdTogglePip__"
+    }
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "minimum_chrome_version": "114"
+}

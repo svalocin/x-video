@@ -1,0 +1,92 @@
+{
+  "extName": {
+    "message": "x-video"
+  },
+  "extShortName": {
+    "message": "x-video"
+  },
+  "extDescription": {
+    "message": "Rotate, mirror, and scale HTML5 videos, with picture-in-picture floating playback."
+  },
+  "actionTitle": {
+    "message": "x-video"
+  },
+  "statusAngleTitle": {
+    "message": "Current rotation angle"
+  },
+  "pipLabel": {
+    "message": "Picture-in-Picture"
+  },
+  "pipDesc": {
+    "message": "Floating play · Alt+P"
+  },
+  "quickActionsAria": {
+    "message": "Quick actions"
+  },
+  "rotateRightLabel": {
+    "message": "Clockwise"
+  },
+  "rotateLeftLabel": {
+    "message": "Counterclockwise"
+  },
+  "mirrorLabel": {
+    "message": "Mirror"
+  },
+  "mirrorOff": {
+    "message": "Flip horizontal"
+  },
+  "mirrorOn": {
+    "message": "On"
+  },
+  "resetLabel": {
+    "message": "Reset"
+  },
+  "resetDesc": {
+    "message": "Restore defaults"
+  },
+  "moreTitle": {
+    "message": "Advanced"
+  },
+  "rotateSection": {
+    "message": "Rotation"
+  },
+  "angleLabel": {
+    "message": "Angle"
+  },
+  "positionSection": {
+    "message": "Position"
+  },
+  "verticalLabel": {
+    "message": "Vertical"
+  },
+  "horizontalLabel": {
+    "message": "Horizontal"
+  },
+  "scaleSection": {
+    "message": "Scale"
+  },
+  "overallLabel": {
+    "message": "Overall"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "noVideoTitle": {
+    "message": "No video detected"
+  },
+  "noVideoDesc": {
+    "message": "Make sure this page has an HTML5 player, then try again."
+  },
+  "cmdRotateClockwise": {
+    "message": "Rotate clockwise 90°"
+  },
+  "cmdRotateCounterclockwise": {
+    "message": "Rotate counterclockwise 90°"
+  },
+  "cmdRotateReset": {
+    "message": "Reset rotation"
+  },
+  "cmdTogglePip": {
+    "message": "Toggle picture-in-picture"
+  }
+}

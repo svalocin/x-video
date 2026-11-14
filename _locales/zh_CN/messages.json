@@ -1,0 +1,92 @@
+{
+  "extName": {
+    "message": "x-video"
+  },
+  "extShortName": {
+    "message": "x-video"
+  },
+  "extDescription": {
+    "message": "旋转、镜像、缩放 HTML5 视频，并支持画中画浮动播放。"
+  },
+  "actionTitle": {
+    "message": "x-video"
+  },
+  "statusAngleTitle": {
+    "message": "当前旋转角度"
+  },
+  "pipLabel": {
+    "message": "画中画"
+  },
+  "pipDesc": {
+    "message": "浮动播放 · Alt+P"
+  },
+  "quickActionsAria": {
+    "message": "快捷操作"
+  },
+  "rotateRightLabel": {
+    "message": "顺时针"
+  },
+  "rotateLeftLabel": {
+    "message": "逆时针"
+  },
+  "mirrorLabel": {
+    "message": "镜像翻转"
+  },
+  "mirrorOff": {
+    "message": "水平翻转"
+  },
+  "mirrorOn": {
+    "message": "已开启"
+  },
+  "resetLabel": {
+    "message": "重置画面"
+  },
+  "resetDesc": {
+    "message": "恢复默认"
+  },
+  "moreTitle": {
+    "message": "高级操作"
+  },
+  "rotateSection": {
+    "message": "旋转角度"
+  },
+  "angleLabel": {
+    "message": "角度"
+  },
+  "positionSection": {
+    "message": "画面位置"
+  },
+  "verticalLabel": {
+    "message": "垂直"
+  },
+  "horizontalLabel": {
+    "message": "水平"
+  },
+  "scaleSection": {
+    "message": "画面缩放"
+  },
+  "overallLabel": {
+    "message": "整体"
+  },
+  "shortcutsLabel": {
+    "message": "快捷键"
+  },
+  "noVideoTitle": {
+    "message": "未检测到视频"
+  },
+  "noVideoDesc": {
+    "message": "请确保当前页面包含 HTML5 播放器后再试。"
+  },
+  "cmdRotateClockwise": {
+    "message": "顺时针旋转 90°"
+  },
+  "cmdRotateCounterclockwise": {
+    "message": "逆时针旋转 90°"
+  },
+  "cmdRotateReset": {
+    "message": "重置旋转"
+  },
+  "cmdTogglePip": {
+    "message": "开关画中画"
+  }
+}
